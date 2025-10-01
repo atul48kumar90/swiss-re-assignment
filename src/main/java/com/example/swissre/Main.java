@@ -30,7 +30,11 @@ public class Main {
 
         System.out.println("\n------ Reporting Depth Analysis ------");
         List<String> empWithDepthIssue = employeeService.getReportingDepth();
-        empWithDepthIssue.forEach(System.out::println);
+        if (empWithDepthIssue.isEmpty()) {
+            System.out.println("------(no issues)------");
+        } else {
+            empWithDepthIssue.forEach(System.out::println);
+        }
     }
 }
 
