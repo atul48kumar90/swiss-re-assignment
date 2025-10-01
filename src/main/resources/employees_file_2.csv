@@ -1,0 +1,13 @@
+Id,firstName,lastName,salary,managerId
+100,John,CEO,100000,
+101,Sarah,Smith,80000,100
+102,Mark,Johnson,60000,101
+103,Emily,Davis,55000,102
+104,David,Wilson,50000,103
+105,Linda,Clark,48000,104
+106,James,Lewis,45000,105
+200,Alice,Green,70000,100
+201,Bob,Brown,50000,200
+202,Charlie,White,48000,200
+203,Eve,Black,46000,201
+204,Mike,Gray,44000,203
